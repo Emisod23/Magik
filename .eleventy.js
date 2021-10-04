@@ -13,3 +13,15 @@ module.exports = function(eleventyConfig) {
         passthroughFileCopy: true
     };
 }
+
+const mtg = require('mtgsdk')
+
+mtg.card.find(3)
+.then(result => {
+    console.log(result.card.name) // "Black Lotus"
+})
+
+card.all({ name: 'Jayce', pageSize: 1 })
+.on('data', card => {
+    console.log(card.name)
+})

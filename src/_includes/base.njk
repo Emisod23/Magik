@@ -12,8 +12,8 @@
     <nav class="container">
         <ul class="nav">
             <li><a href="/">Hem</a></li>
-        {% for possum in possums %}
-            <li><a href="/possums/{{ possum.name | slug }}">{{ possum.name }}</a></li>
+        {% for Card in Cards %}
+            <li><a href="/Cards/{{ Card.name | slug }}">{{ Card.name }}</a></li>
         {% endfor %}
         </ul>
     </nav>

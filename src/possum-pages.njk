@@ -1,12 +1,12 @@
 ---
 layout: base.njk
 pagination:
-    data: possums
+    data: Cards
     size: 1
-    alias: possum
-permalink: "possums/{{ possum.name | slug }}/"
+    alias: Card
+permalink: "Cards/{{ Card.name | slug }}/"
 ---
 
 <img alt="{{ possum.name }}" src="https://robohash.org/{{ possum.name | slug }}?size=300x300">
 
-<h1>{{ possum.name }} är {{ possum.age }}år gammal.</h1>
+<h1>{{ Cards.name }} är en {{ Cards.card type }}</h1>

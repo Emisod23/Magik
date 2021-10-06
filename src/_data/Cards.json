@@ -1,5 +1,10 @@
 [
     {
-        "name": ""
+        "name": "Black Lotus",
+        "card type": "Artefact"
+    },
+    {
+        "name": "Jace the mindshaper",
+        "card type": "Legendary Planeswalker"
     }
 ]

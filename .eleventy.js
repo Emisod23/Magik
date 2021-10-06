@@ -21,7 +21,7 @@ mtg.card.find(3)
     console.log(result.card.name) // "Black Lotus"
 })
 
-card.all({ name: 'Squee', pageSize: 1 })
+mtg.card.all({ name: 'Squee', pageSize: 1 })
 .on('data', card => {
     console.log(card.name)
 })

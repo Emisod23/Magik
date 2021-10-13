@@ -12,16 +12,13 @@
     <nav class="container">
         <ul class="nav">
             <li><a href="/">Hem</a></li>
-        {% for Card in Cards %}
-            <li><a href="/Cards/{{ Card.name | slug }}">{{ Card.name }}</a></li>
+        {% for card in cards %}
+            <li><a href="/cards/{{ card.name | slug }}">{{ card.name }}</a></li>
         {% endfor %}
         </ul>
     </nav>
     <main class="container">
         {{ content | safe }}
     </main>
-    <footer class="container">
-        <p><s>Robots</s> Pungråttor levererade av <a href="https://robohash.org/" target="_blank" rel="noreferrer">Robohash.org</a> med ♥.</p>
-    </footer>
 </body>
 </html>

@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Black Lotus",
+        "rarity": "rare",
+        "cost": "0",
+        "type": "artefact",
+        "set": "Limited Edition Alpha"
+    },
+    {
+        "name": "Jace the mindshaper",
+        "type": "Legendary Planeswalker"
+    }
+]

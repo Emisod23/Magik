@@ -4,10 +4,71 @@
         "rarity": "rare",
         "cost": "0",
         "type": "artefact",
-        "set": "Limited Edition Alpha"
+        "set": "Limited Edition Alpha",
+        "effekt": "Adds 3 mana of any single color of your choice to your mana pool, then is discarded. Tapping this artifact can be played as an instant.",
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3&type=card" 
     },
     {
-        "name": "Jace the mindshaper",
-        "type": "Legendary Planeswalker"
+        "name": "Timid Drake",
+        "rarity": "uncommon",
+        "cost": "2 colorless, 1 blue",
+        "type": "creature",
+        "set": "Weatherlight",
+        "effekt": "If any other creature comes into play, return Timid Drake to owner's hand.",
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=4500&type=card"
+    },
+    {
+        "name": "Soltari Emissary",
+        "rarity": "rare",
+        "cost": "1 colorless, 1 white",
+        "type": "creature",
+        "set": "Tempest",
+        "effekt": "One White: Soltari Emissary gains shadow until end of turn. (This creature can block or be blocked by only creatures with shadow.",
+        "image": "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=4900&type=card"
+    },
+    {
+        "name": "Feedback",
+        "rarity": "uncommon",
+        "cost": "2 colorless, 1 blue",
+        "type": "enchanting enchantment",
+        "set": "Limited Edition Beta",
+        "effekt": "Feedback does 1 damage to controller of target enchantment during each upkeep.",
+        "image": "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=400&type=card"
+    },
+    {
+        "name": "Pox",
+        "rarity": "rare",
+        "cost": "3 black",
+        "type": "sorcery",
+        "set": "Fifth Edition",
+        "effekt": "Each player loses 1/3 of his or her life; then chooses and discards 1/3 of his or her hand; then sacrifices 1/3 of the creatures he or she controls; and then sacrifices 1/3 of the lands he or she controls. Round each loss up.",
+        "image": "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3872&type=card"
+    },
+    {
+        "name": "Anvil of Bogardan",
+        "rarity": "rare",
+        "cost": "2 colorless",
+        "type": "artefakt",
+        "set": "Visions",
+        "effekt": "Each player skips his or her discard phase. During each player's draw phase, that player draws an additional card and then chooses and discards a card.",
+        "image": "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3589&type=card"
+    },
+    {
+        "name": "Lich",
+        "rarity": "rare",
+        "cost": "4 black",
+        "type": "enchantment",
+        "set": "Limited Edition Alpha",
+        "effekt": "You lose all life. If you gain life later in the game, instead draw one card from your library for each life. For each point of damage you suffer, you must destroy one of your cards in play. Creatures destroyed in this way cannot be regenerated. You lose if this enchantment is destroyed or if you suffer a point of damage without sending a card to the graveyard.",
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=69&type=card"
+    },
+    {
+        "name": "Jace, Unraveler of Secrets",
+        "rarity": "Mythic",
+        "cost": "3 colorless, 2 blue",
+        "type": "legendary planeswalker",
+        "set": "Shadows over Innistrad",
+        "effekt": "[+1]: Scry 1, then draw a card. [−2]: Return target creature to its owner's hand.\n [−8]: You get an emblem with Whenever an opponent casts their first spell each turn, counter that spell.",
+        "image": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=409812&type=card"
     }
 ]

@@ -7,5 +7,7 @@ pagination:
 permalink: "cards/{{ card.name | slug }}/"
 ---
 
+<img alt="{{ card.name }}" src="{{ card.image }}">
 <h1>{{ card.name }} är en {{ card.rarity }} {{ card.cost }} cost {{ card.type }}.</h1>
-<h2>Adds 3 mana of any single color of your choice to your mana pool, then is discarded. Tapping this artifact can be played as an interrupt.</h2>
+<h5>{{ card.set }}</h5>
+<h2>{{ card.effekt }}</h2>
